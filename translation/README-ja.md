@@ -23,4 +23,4 @@
 1. [`LICENSE`](LICENSE) ファイルをプロジェクトのルートにコピーします。
 2. `[Year]` と `[Licensor Name]` を適切な情報に置き換えます。
 3. 以下のバッジを `README.md` などに追加し、Tea License 2.0 の採用を示します。
-4. （任意）ソースファイルにヘッダコメントを追加します：
+4. （任意）ソースファイルにヘッダコメントを追加します：// Copyright (c) 2026 YourName - Tea License 2.0 (see LICENSE)
