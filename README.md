@@ -23,4 +23,16 @@ The complete legal text is in the [LICENSE](LICENSE) file at the root of this re
 1. Copy the [`LICENSE`](LICENSE) file into your project’s root directory.
 2. Replace `[Year]` and `[Licensor Name]` with the appropriate year and your name or organization.
 3. Add the badge below to your `README.md` (or any documentation) to let others know you use Tea License 2.0.
-4. (Optional) Include a comment header in your source files: // Copyright (c) 2026 YourName - Tea License 2.0 (see LICENSE)
+4. (Optional) Include a comment
+5. header in your source files: // Copyright (c) 2026 YourName - Tea License 2.0 (see LICENSE)
+## Badge
+
+[![Tea License 2.0](https://img.shields.io/badge/license-Tea%202.0-brightgreen)](https://github.com/TeaInMud/Tea-License)
+
+## Website & Translations
+
+Visit the official website at **[teainmud.github.io/Tea-License](https://teainmud.github.io/Tea-License/)** for an FAQ, translations (Japanese, French, Spanish), and the License Builder that generates your personalized Tea License 2.0 text.
+
+## License for This Repository
+
+This repository itself is offered under the Tea License 2.0. 🍵
