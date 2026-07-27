@@ -24,3 +24,13 @@
 2. `[Year]` と `[Licensor Name]` を適切な情報に置き換えます。
 3. 以下のバッジを `README.md` などに追加し、Tea License 2.0 の採用を示します。
 4. （任意）ソースファイルにヘッダコメントを追加します：// Copyright (c) 2026 YourName - Tea License 2.0 (see LICENSE)
+## バッジ
+[![Tea License 2.0](https://img.shields.io/badge/license-Tea%202.0-brightgreen)](https://github.com/TeaInMud/Tea-License)
+
+## ウェブサイトと言語
+
+公式ウェブサイト **[teainmud.github.io/Tea-License](https://teainmud.github.io/Tea-License/)** には、FAQ、複数言語（日本語、フランス語、スペイン語）、およびパーソナライズされた Tea License 2.0 を生成する License Builder があります。
+
+## このリポジトリのライセンス
+
+このリポジトリ自体も Tea License 2.0 の下で提供されています。🍵
