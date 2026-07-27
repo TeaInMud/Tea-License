@@ -1,47 +1,28 @@
-# 🍵 The Tea House Code
+# Tea House Code of Conduct
 
-> A warm, inclusive space where everyone can steep, share, and sip together.
+All participants in this repository—maintainers, contributors, and commenters—are expected to adhere to this Code of Conduct. We foster a professional, respectful, and constructive community.
 
-All participants in this repository—maintainers, contributors, commenters, and lurkers—are expected to follow this Code of Conduct. We’re here to brew something delightful, not to spill boiling water on anyone.
+## Expected Behaviour
+- Communicate with clarity and respect.
+- Assume good intent; seek to understand before objecting.
+- Provide and accept constructive critique focused on the work, not the person.
+- Respect differing legal and cultural perspectives.
 
----
+## Unacceptable Behaviour
+- Harassment, insults, or personal attacks of any kind.
+- Discrimination based on gender, sexual orientation, disability, race, religion, or any other protected characteristic.
+- Trolling, sustained disruption, or intimidation.
+- Sharing of private information without consent.
 
-## ☕ Our Standards
+## Enforcement
+Instances of unacceptable behaviour may be reported to the project maintainer at `[maintainer-email@example.com]`. All complaints will be reviewed promptly and fairly. Maintainers are obligated to respect the privacy of the reporter.
 
-### Welcomed Behaviour
-- **Be steeped in kindness.** Offer constructive feedback, not scalding criticism.
-- **Share the pot.** Encourage others, celebrate contributions, and pass the biscuit tin.
-- **Listen before you pour.** Seek to understand different perspectives before responding.
-- **Keep the tea warm.** Assume good intentions; we’re all here to make the License better.
+Consequences may include:
+- A warning
+- Temporary or permanent ban from the repository and associated spaces
 
-### Unacceptable Behaviour
-- **Scalding language:** Harassment, insults, trolling, or any remarks that feel like a burn.
-- **Gate-keeping the kettle:** Telling others they’re not “real” tea drinkers or developers.
-- **Spilling the tea maliciously:** Sharing private information, doxxing, or deliberately stirring drama.
-- **Refusing the cup:** Ignoring maintainer decisions after respectful discussion has run its course.
+## Scope
+This Code of Conduct applies within all repository interactions (issues, pull requests, discussions) and extends to any official project gatherings.
 
----
-
-## 🫖 Enforcement
-
-If you see behaviour that leaves a bitter taste:
-
-1. **Gentle reminder:** Sometimes a simple “That feels a bit hot; let’s let it cool” can work wonders.
-2. **Report:** If the issue persists or is severe, contact the repository maintainers directly at `[maintainer-email@example.com]`. All reports will be reviewed and kept confidential.
-3. **Consequences:** Maintainers may remove comments, close issues, or temporarily/permanently ban individuals who repeatedly breach this Code. Decisions will be fair and explained where possible.
-
----
-
-## 🍪 Scope
-
-This Code of Conduct applies within all repository spaces (issues, pull requests, discussions) and extends to any official Tea License gatherings (virtual tea parties, chat rooms, etc.). It also applies when an individual is representing the project in public forums.
-
----
-
-## 🫖 Attribution
-
-This Tea House Code is brewed with inspiration from the [Contributor Covenant](https://www.contributor-covenant.org), steeped in our own leaf of whimsy.
-
----
-
-Remember: behind every username is a person with their own cup of tea. Let’s make this a place they’ll want to return to.
+## Attribution
+This code is adapted from the Contributor Covenant, version 2.1, with a nod to the tea tradition of respectful dialogue.
