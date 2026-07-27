@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea License Builder 🍵</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .builder-form {
+            background: #faf6ed;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+        .builder-form input {
+            display: block;
+            width: 100%;
+            padding: 0.6rem;
+            margin: 0.5rem 0 1rem;
+            border: 1px solid #dcc8a0;
+            border-radius: 6px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        .builder-form button {
+            background: #8b5e3c;
+            color: #fffef7;
+            border: none;
+            padding: 0.7rem 2rem;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .builder-form button:hover {
+            background: #6b4530;
+        }
+        .license-output {
+            background: #fffef7;
+            border: 1px solid #dcc8a0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .copy-btn {
+            margin-top: 1rem;
+            background: #6b8c5c;
+            color: white;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .copy-btn:hover {
+            background: #4e6943;
+        }
+        #message {
+            margin-left: 1rem;
+            color: #6b8c5c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍵 License Builder</h1>
+        <p>Brew your own personalized Tea License instantly. Fill in your details below, then copy the text directly into your project’s <code>LICENSE</code> file.</p>
+
+        <div class="builder-form">
+            <label for="name">Your Name / Organization</label>
+            <input type="text" id="name" placeholder="e.g., Alice Wonder or TeaCup Studios" required>
+
+            <label for="year">Year</label>
+            <input type="text" id="year" placeholder="2026" value="2026" required>
+
+            <button id="generateBtn">🍵 Brew My License</button>
+        </div>
+
+        <div id="result" style="display: none;">
+            <h2>Your Freshly Steeped License</h2>
+            <div class="license-output" id="licenseText"></div>
+            <button class="copy-btn" id="copyBtn">📋 Copy to Clipboard</button>
+            <span id="message"></span>
+        </div>
+
+        <p style="margin-top: 2rem;"><a href="index.html">← Back to Tea License Home</a></p>
+    </div>
+
+    <script>
+        const licenseTemplate = `MIT-like with tea puns – The Tea License
+
+Copyright (c) {{YEAR}} {{NAME}} – "The Tea Copyright"
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this work (the "Tea"), to deal in the Tea without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Tea, and to permit persons to whom the Tea
+is furnished to do so, subject to the following conditions:
+
+1. Steep Freely, But Don’t Scald.
+   You may share and adapt this work for any purpose, even commercially,
+   provided you do not claim you brewed the original blend. Give proper
+   credit to the original creator, and indicate if changes were made (e.g.,
+   "A smoky Lapsang Souchong remix of the original Earl Grey").
+
+2. Leave the Tea Bag Tag On.
+   Any distribution of the original or modified work must retain this
+   license notice, so future sippers know their rights. Keep the string
+   attached.
+
+3. No Bitterness Clause.
+   This license does not grant permission to use the creator's name, logo,
+   or tea cozy trademarks for endorsement without a fresh, separate pot of
+   permission.
+
+4. Drink Responsibly.
+   THE TEA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FLAVOR, AROMA,
+   OR FITNESS FOR A RAINY AFTERNOON. IN NO EVENT SHALL THE AUTHOR BE LIABLE
+   FOR ANY CLAIM, DAMAGES, OR LUKEWARM FEELINGS ARISING FROM THE TEA’S
+   CONSUMPTION.
+
+5. Companion Beverages Encouraged.
+   Sharing this work with a friend over a real cup of tea is strongly
+   recommended but not legally required. Biscuits optional.`;
+
+        document.getElementById('generateBtn').addEventListener('click', () => {
+            const name = document.getElementById('name').value.trim();
+            const year = document.getElementById('year').value.trim();
+
+            if (!name || !year) {
+                alert('Please fill in both your name and the year. Even tea needs a full pot.');
+                return;
+            }
+
+            const licenseText = licenseTemplate.replace('{{NAME}}', name).replace('{{YEAR}}', year);
+            document.getElementById('licenseText').textContent = licenseText;
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('message').textContent = '';
+        });
+
+        document.getElementById('copyBtn').addEventListener('click', () => {
+            const text = document.getElementById('licenseText').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                document.getElementById('message').textContent = 'Copied! Pairs well with a biscuit. 🍪';
+            }).catch(() => {
+                document.getElementById('message').textContent = 'Please copy manually. Tea spill averted.';
+            });
+        });
+    </script>
+</body>
+</html>
