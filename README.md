@@ -23,4 +23,4 @@ The complete legal text is in the [LICENSE](LICENSE) file at the root of this re
 1. Copy the [`LICENSE`](LICENSE) file into your project’s root directory.
 2. Replace `[Year]` and `[Licensor Name]` with the appropriate year and your name or organization.
 3. Add the badge below to your `README.md` (or any documentation) to let others know you use Tea License 2.0.
-4. (Optional) Include a comment header in your source files:
+4. (Optional) Include a comment header in your source files: // Copyright (c) 2026 YourName - Tea License 2.0 (see LICENSE)
