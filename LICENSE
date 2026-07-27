@@ -1,36 +1,161 @@
-MIT-like with tea puns – The Tea License
+The Tea License, Version 2.0 (Tea-2.0)
 
-Copyright (c) [Year] [Your Name] – "The Tea Copyright"
+Copyright (c) [Year] [Licensor Name]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this work (the "Tea"), to deal in the Tea without restriction, including
-without limitation the rights to use, copy, modify, merge, publish, distribute,
-sublicense, and/or sell copies of the Tea, and to permit persons to whom the Tea
-is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person (the "Licensee")
+obtaining a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
 
-1. Steep Freely, But Don’t Scald.
-   You may share and adapt this work for any purpose, even commercially,
-   provided you do not claim you brewed the original blend. Give proper
-   credit to the original creator, and indicate if changes were made (e.g.,
-   "A smoky Lapsang Souchong remix of the original Earl Grey").
+1. Definitions.
 
-2. Leave the Tea Bag Tag On.
-   Any distribution of the original or modified work must retain this
-   license notice, so future sippers know their rights. Keep the string
-   attached.
+   "Software" means the original work of authorship and all associated
+   documentation files, as identified above.
 
-3. No Bitterness Clause.
-   This license does not grant permission to use the creator's name, logo,
-   or tea cozy trademarks for endorsement without a fresh, separate pot of
-   permission.
+   "Modified Version" means any work that is based on or derived from the
+   Software, or any part thereof, including modifications, enhancements,
+   translations, or adaptations.
 
-4. Drink Responsibly.
-   THE TEA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FLAVOR, AROMA,
-   OR FITNESS FOR A RAINY AFTERNOON. IN NO EVENT SHALL THE AUTHOR BE LIABLE
-   FOR ANY CLAIM, DAMAGES, OR LUKEWARM FEELINGS ARISING FROM THE TEA’S
-   CONSUMPTION.
+   "Licensor" means the copyright holder or entity that is granting the
+   License.
 
-5. Companion Beverages Encouraged.
-   Sharing this work with a friend over a real cup of tea is strongly
-   recommended but not legally required. Biscuits optional.
+   "Licensee" means any individual or legal entity exercising rights under
+   this License.
+
+2. Grant of Copyright License.
+
+   Subject to the terms and conditions of this License, the Licensor hereby
+   grants to Licensee a perpetual, worldwide, non-exclusive, royalty-free,
+   irrevocable (except as set forth in Section 10) copyright license to
+   reproduce, prepare Modified Versions, publicly display, publicly perform,
+   distribute, and sublicense the Software and Modified Versions, in source
+   code or object code form.
+
+3. Grant of Patent License.
+
+   Subject to the terms and conditions of this License, the Licensor hereby
+   grants to Licensee a perpetual, worldwide, non-exclusive, royalty-free,
+   irrevocable (except as set forth in Section 10) patent license to make,
+   have made, use, offer to sell, sell, import, and otherwise transfer the
+   Software, where such license applies only to those patent claims
+   licensable by the Licensor that are necessarily infringed by the Software
+   alone. If Licensee institutes patent litigation against any entity
+   (including a cross-claim or counterclaim) alleging that the Software, or
+   any work that includes the Software, constitutes direct or contributory
+   patent infringement, then any patent licenses granted to Licensee under
+   this License shall terminate as of the date such litigation is filed, and
+   all other rights granted under this License shall terminate immediately.
+
+4. Conditions.
+
+   (a) Attribution and Notices. Redistributions of the Software, in source
+       code or object code form, must retain the above copyright notice, this
+       list of conditions, and the following acknowledgment: "This product
+       includes software developed by [Licensor Name] and is licensed under
+       the Tea License 2.0 (see accompanying LICENSE file)."
+
+       If the Software is distributed in a product that has a user interface,
+       the Licensee shall display a prominent notice in that interface
+       stating: "Powered by [Licensor Name]'s Tea-Licensed software." Such
+       notice shall be at least as prominent as other similar notices
+       displayed for third-party software components.
+
+   (b) Copyleft on the Software Itself. If Licensee distributes copies of
+       the Software or any Modified Version in source code form, such copies
+       must be made available under the terms of this License. Licensee may
+       distribute the Software or Modified Version in object code or
+       executable form under Licensee's own choice of license, provided that:
+
+          i. The source code of the Software and any Modified Version is made
+             publicly available under this License, either by including it
+             with the distribution or by a written offer valid for at least
+             three years; and
+
+         ii. The recipient of the object code/executable is informed of their
+             right to obtain the corresponding source code under this License.
+
+       Nothing in this License shall be construed to prohibit the combination
+       of the Software with other works that are not derived from the
+       Software, and such aggregate works may be distributed under different
+       terms, as long as the conditions for the Software portion are met.
+
+5. Ethical Use Restriction.
+
+   Licensee shall not use, reproduce, modify, or distribute the Software, in
+   whole or in part, for any purpose that directly facilitates:
+
+       (a) Mass surveillance programs that systematically violate fundamental
+           human rights;
+       (b) The development or operation of autonomous weapon systems
+           (lethal autonomous weapons) that are designed to injure or kill
+           persons without meaningful human control; or
+       (c) New fossil fuel extraction projects, including the exploration,
+           drilling, or mining of additional coal, oil, or natural gas
+           reserves.
+
+   Any use that violates this section is a material breach of this License,
+   and all rights granted hereunder shall terminate automatically upon such
+   breach.
+
+6. Moral Rights Protection.
+
+   Licensee shall not use the Software in any manner that would damage the
+   reputation or honor of the Licensor, including but not limited to use in
+   connection with hate speech, systematic disinformation, or other
+   activities that a reasonable person would consider detrimental to the
+   Licensor's standing. If the Licensor provides written notice of such
+   harmful use, Licensee shall promptly cease that use within thirty (30)
+   days. Failure to do so shall constitute a material breach, resulting in
+   automatic termination of this License.
+
+7. Consideration – The Biscuit Covenant.
+
+   In consideration for the rights granted herein, Licensee agrees that,
+   upon written request from the Licensor (which may be made no more than
+   once per calendar year), Licensee shall deliver to the Licensor a token
+   of appreciation in one of the following forms, at Licensee's choice:
+
+       (a) A packaged biscuit or cookie of reasonable quality delivered to a
+           postal address specified by the Licensor; or
+       (b) A donation of US $1.00 to a charity designated by the Licensor.
+
+   This covenant shall not be assigned or transferred, and any failure to
+   comply after a reasonable cure period is a breach of this License.
+
+8. Dispute Resolution.
+
+   Any dispute, controversy, or claim arising out of or relating to this
+   License, including its breach, termination, or validity, shall first be
+   submitted to mandatory mediation. The mediation shall be conducted
+   remotely via video conference or in person, at the parties' mutual
+   convenience, and both parties agree to share a cup of tea (or other
+   preferred beverage) during the opening session as a gesture of goodwill.
+   Each party shall bear its own costs of mediation. If the dispute is not
+   resolved within sixty (60) days after the first mediation session, either
+   party may proceed to litigation in a court of competent jurisdiction.
+
+9. Disclaimer of Warranty.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+   NON-INFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+10. Termination.
+
+    All rights granted under this License shall terminate automatically if
+    Licensee fails to comply with any material term or condition and does not
+    cure such failure within thirty (30) days after receiving written notice
+    from the Licensor. Upon termination, Licensee shall cease all use of the
+    Software and destroy all copies in its possession. The following sections
+    shall survive termination: 1, 7, 8, 9, and 10.
+
+    This License shall not be terminated for reasons other than those
+    expressly set forth herein.
+
+END OF TERMS AND CONDITIONS
